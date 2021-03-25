@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCI.Droid", "XamarinCI.Droid\XamarinCI.Droid.csproj", "{93734DB4-629E-43DB-A198-CC2E2219989F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "XamarinCI.Shared", "XamarinCI.Shared\XamarinCI.Shared.shproj", "{333E4C54-A7CA-4E70-8FC8-6F3D8B648B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinCI.UnitTest", "XamarinCI.UnitTest\XamarinCI.UnitTest.csproj", "{2CDF5009-3655-4210-B198-5961DF5542B6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XamarinCI.Shared\XamarinCI.Shared.projitems*{2cdf5009-3655-4210-b198-5961df5542b6}*SharedItemsImports = 5
+		XamarinCI.Shared\XamarinCI.Shared.projitems*{333e4c54-a7ca-4e70-8fc8-6f3d8b648b51}*SharedItemsImports = 13
+		XamarinCI.Shared\XamarinCI.Shared.projitems*{93734db4-629e-43db-a198-cc2e2219989f}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93734DB4-629E-43DB-A198-CC2E2219989F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2CDF5009-3655-4210-B198-5961DF5542B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDF5009-3655-4210-B198-5961DF5542B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDF5009-3655-4210-B198-5961DF5542B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDF5009-3655-4210-B198-5961DF5542B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8560C339-143C-4728-9DC1-5ABA08FE6892}
+	EndGlobalSection
+EndGlobal
